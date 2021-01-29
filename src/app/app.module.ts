@@ -6,14 +6,12 @@ import { AppComponent } from './app.component';
 
 import {ButtonModule} from 'primeng/button';
 
-import { RootComponent } from './root/root.component';
 import { MainComponent } from './main/main.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RootComponent,
     MainComponent
     
   ],
