@@ -6,10 +6,15 @@ import { AppComponent } from './app.component';
 
 import {ButtonModule} from 'primeng/button';
 
+import { RootComponent } from './root/root.component';
+import { MainComponent } from './main/main.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RootComponent,
+    MainComponent
     
   ],
   imports: [
@@ -25,8 +30,3 @@ import {ButtonModule} from 'primeng/button';
 export class AppModule { }
 
 
-/*
-//themes
-  "primeng/resources/themes/saga-green/theme.css",
-  "primeng/resources/themes/vela-green/theme.css",
-*/
