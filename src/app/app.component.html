@@ -1,5 +1,8 @@
+<router-outlet>
 
+</router-outlet>
+<link rel="stylesheet" [href]="sanitizer.bypassSecurityTrustResourceUrl(cssUrl)">
 
-<router-outlet></router-outlet>
+<button pButton (click)="changeStyle()" label="Modo Oscuro"></button>
 
 <app-main></app-main>
