@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {ButtonModule} from 'primeng/button';
+import {CardModule} from 'primeng/card';
+import {CarouselModule} from 'primeng/carousel';
 
 import { MainComponent } from './main/main.component';
 
@@ -19,7 +21,10 @@ import { MainComponent } from './main/main.component';
     BrowserModule,
     AppRoutingModule,
 
-    ButtonModule
+    ButtonModule,
+    CardModule,
+    CarouselModule,
+    
 
   ],
   providers: [],

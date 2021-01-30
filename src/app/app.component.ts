@@ -11,7 +11,9 @@ export class AppComponent implements OnInit{
 
   cssUrl: string='';
 
-  constructor(public sanitizer: DomSanitizer) { }
+  constructor(
+    public sanitizer: DomSanitizer,
+    ) { }
 
   ngOnInit(): void {
    this.cssUrl = '/assets/saga-green.css';
